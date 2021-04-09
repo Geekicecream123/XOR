@@ -6,7 +6,7 @@ the sigmoid activation function,Although better activation functions like Relu a
 not learning new parameters as data size grows due to flattening of the sigmoid graph did not arise.Then using backprop which is essentially the chain rule,T
 the expectedvalue-the values from the forward prop in,gives use the derivative .
 These derivative are used to update the value of weights and biases
-using (Wo-learningrate*derivate),these run over 10000 epochs gave a learning curve which was decreasing.The gradient descent runs over 10000 times to give this graph.
+using (Wo-learningrate*derivate),these run over 11000 epochs gave a learning curve which was decreasing.The gradient descent runs over 11000 times to give this graph.
 I have read that other gradient method like stochastic gradient descent (takes single step after every training example) and minibatches (takes
 step after 32,64 ,128examples) which is much compuationally less time consuming.
 While making this project i knew the theory as i have done Machine learning course by Andrew Ng and 3 courses of deeplearning spealisation.I am not
